@@ -1,9 +1,9 @@
 ---
 title: "Januaru 2023"
 description: "My first post on my website!"
-pubDate: "Jan 27 2023"
+pubDate: "Jan 28 2023"
 ---
-# 27 Jan
+# 28 Jan
 
 - **Learning**
   - Installed Astro
