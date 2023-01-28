@@ -70,13 +70,6 @@ declare module 'astro:content' {
   collection: "blog",
   data: InferEntrySchema<"blog">
 },
-"markdown-style-guide.md": {
-  id: "markdown-style-guide.md",
-  slug: "markdown-style-guide",
-  body: string,
-  collection: "blog",
-  data: InferEntrySchema<"blog">
-},
 },
 
 	};

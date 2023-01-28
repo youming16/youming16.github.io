@@ -1,7 +1,7 @@
 ---
 title: "Januaru 2023"
 description: "My first post on my website!"
-pubDate: "Jan 01 2023"
+pubDate: "Jan 27 2023"
 ---
 # 27 Jan
 
