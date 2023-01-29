@@ -7,7 +7,7 @@ description: A letter to myself
 
 Hi
 
-This letter recorded the reason you started writing, and decided to post them online.
+This letter recorded my reason for started writing, and decided to post them online.
 
 Well, I used to write journey and keep my ideas on the paper,  but I think I haven't get used to write something with laptop. When I typing words with keyboard, it has totally different feeling.
 
