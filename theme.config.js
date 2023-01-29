@@ -4,12 +4,12 @@ export default {
   footer: (
     <footer>
       <small>
-        <time>{YEAR}</time> © Your Name.
+        <time>{YEAR}</time> © Youming Tan.
         <a href="/feed.xml">RSS</a>
       </small>
       <style jsx>{`
         footer {
-          margin-top: 8rem;
+          margin-buttom: 1rem;
         }
         a {
           float: right;
