@@ -5,14 +5,16 @@ export default {
     <footer>
       <small>
         <time>{YEAR}</time> © Youming Tan.
-        <a href="/feed.xml">RSS</a>
+        <a id="social-media"href="https://github.com/youming16">Github</a>
+        <a id="social-media" href="https://twitter.com/Youming_Tan">Twitter</a>
       </small>
       <style jsx>{`
         footer {
-          margin-buttom: 1rem;
+          margin-top: 20rem;
         }
-        a {
+        #social-media {
           float: right;
+          margin: 5px 5px;
         }
       `}</style>
     </footer>
