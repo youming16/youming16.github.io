@@ -1,15 +1,16 @@
 {
   "private": true,
   "scripts": {
+    "predeploy": "npm run export",
+    "deploy": "gh-pages -d out",
     "dev": "next",
     "build": "next build",
     "preexport": "npm run build",
     "export": "next export",
     "prestart": "npm run export",
     "start": "serve out",
-    "lint": "next lint",
-    "predeploy": "npm run export",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
+    
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
