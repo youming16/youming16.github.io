@@ -29,7 +29,14 @@ By the way, I would like to keep down the thoughts about last book I read a week
 
 ## What I learn today?
 
-Recent days I've been working on learning how to build website. Follow the course on udemy, I like that Japanese tutor, her accent, her patients, her humor. I think it is a good start for me to learn online with her.
+Recent days I've been working on learning how to build website. Follow the course on udemy, I like that Japanese tutor, her accent, her patients, her humor. I think it is a good start for me to learn online with her. There are two website I did, following the site:
+
+- [About me](https://youming16.github.io/AboutMe/)
+  - Fisnished at *28/1/2023*
+  - html & css
+- [Tindog](https://youming16.github.io/Tindog)
+  - Still working on
+  - Boostrap & css
 
 # End
 
