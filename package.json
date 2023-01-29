@@ -1,8 +1,6 @@
 {
   "private": true,
   "scripts": {
-    "predeploy": "npm run export",
-    "deploy": "gh-pages -d out",
     "dev": "next",
     "build": "next build",
     "preexport": "npm run build",
