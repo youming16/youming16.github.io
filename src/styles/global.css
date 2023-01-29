@@ -23,7 +23,7 @@
 body {
   margin: 0;
   font-family: var(--font-family-serif);
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.6;
   background-color: var(--background-body);
   color: var(--text-main);
@@ -43,7 +43,7 @@ h6 {
 
 h1 {
   font-family: var(--font-family-serif);
-  font-size: 4em;
+  font-size: 3em;
   margin: 0 0 1em 0;
 }
 
