@@ -1,0 +1,21 @@
+{
+  "name": "astro-blog-template",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/mdx": "^0.8.3",
+    "@astrojs/svelte": "^1.0.0",
+    "astro": "^1.0.3",
+    "rehype-external-links": "^2.0.0"
+  },
+  "dependencies": {
+    "reading-time": "^1.5.0"
+  }
+}

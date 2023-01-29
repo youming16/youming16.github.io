@@ -1,0 +1,38 @@
+import { CancellationToken, CodeAction, CodeActionContext, CompletionContext, DefinitionLink, Diagnostic, FoldingRange, FormattingOptions, Hover, InlayHint, Position, Range, SemanticTokens, SignatureHelp, SignatureHelpContext, SymbolInformation, TextDocumentContentChangeEvent, TextEdit, WorkspaceEdit } from 'vscode-languageserver';
+import { ConfigManager } from '../../core/config';
+import { AstroDocument, DocumentManager } from '../../core/documents';
+import { AppCompletionItem, AppCompletionList, OnWatchFileChangesParam, Plugin } from '../interfaces';
+import { CompletionItemData } from './features/CompletionsProvider';
+export declare class TypeScriptPlugin implements Plugin {
+    __name: string;
+    private configManager;
+    private readonly languageServiceManager;
+    private readonly codeActionsProvider;
+    private readonly completionProvider;
+    private readonly hoverProvider;
+    private readonly definitionsProvider;
+    private readonly signatureHelpProvider;
+    private readonly diagnosticsProvider;
+    private readonly documentSymbolsProvider;
+    private readonly inlayHintsProvider;
+    private readonly semanticTokensProvider;
+    private readonly foldingRangesProvider;
+    private readonly formattingProvider;
+    constructor(docManager: DocumentManager, configManager: ConfigManager, workspaceUris: string[]);
+    doHover(document: AstroDocument, position: Position): Promise<Hover | null>;
+    rename(document: AstroDocument, position: Position, newName: string): Promise<WorkspaceEdit | null>;
+    formatDocument(document: AstroDocument, options: FormattingOptions): Promise<TextEdit[]>;
+    getFoldingRanges(document: AstroDocument): Promise<FoldingRange[] | null>;
+    getSemanticTokens(document: AstroDocument, range?: Range, cancellationToken?: CancellationToken): Promise<SemanticTokens | null>;
+    getDocumentSymbols(document: AstroDocument): Promise<SymbolInformation[]>;
+    getCodeActions(document: AstroDocument, range: Range, context: CodeActionContext, cancellationToken?: CancellationToken): Promise<CodeAction[]>;
+    getCompletions(document: AstroDocument, position: Position, completionContext?: CompletionContext, cancellationToken?: CancellationToken): Promise<AppCompletionList<CompletionItemData> | null>;
+    resolveCompletion(document: AstroDocument, completionItem: AppCompletionItem<CompletionItemData>, cancellationToken?: CancellationToken): Promise<AppCompletionItem<CompletionItemData>>;
+    getInlayHints(document: AstroDocument, range: Range): Promise<InlayHint[]>;
+    getDefinitions(document: AstroDocument, position: Position): Promise<DefinitionLink[]>;
+    getDiagnostics(document: AstroDocument, cancellationToken?: CancellationToken): Promise<Diagnostic[]>;
+    onWatchFileChanges(onWatchFileChangesParas: OnWatchFileChangesParam[]): Promise<void>;
+    updateNonAstroFile(fileName: string, changes: TextDocumentContentChangeEvent[]): Promise<void>;
+    getSignatureHelp(document: AstroDocument, position: Position, context: SignatureHelpContext | undefined, cancellationToken?: CancellationToken): Promise<SignatureHelp | null>;
+    private featureEnabled;
+}
