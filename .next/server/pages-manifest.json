@@ -2,7 +2,12 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/photos": "pages/photos.js",
-  "/posts": "pages/posts.js"
+  "/": "pages/index.html",
+  "/photos": "pages/photos.html",
+  "/posts/My First Post": "pages/posts/My First Post.html",
+  "/posts/markdown": "pages/posts/markdown.html",
+  "/posts": "pages/posts.html",
+  "/tags/[tag]": "pages/tags/[tag].html",
+  "/posts/pages": "pages/posts/pages.html",
+  "/404": "pages/404.html"
 }
