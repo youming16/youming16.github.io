@@ -1,7 +1,7 @@
 ---
 title: My thinking towards to social media
 publishDate: 30 Jan 2023
-description: An "reflection" more specificly
+description: Should I quit social media?
 ---
 # Before we start
 
