@@ -3,7 +3,7 @@ title: My thinking towards to social media
 publishDate: 30 Jan 2023
 description: An "reflection" more specificly
 ---
-# What happend to me?
+# Before we start
 
 Well, today I've been wasting hours on browsing social medias for nothing, watching no-brain staff to make me laugh. However, I was unable to concentrate on learning at all, and can't help thinking about the funny staff I haven't watch. What come to the next? I spent 5 hours just for a 2 hours online tutorial in the morning. Obviously, my brain has been boiled with them. In the afternoon, I was sitting in front of the desk table and did nothing. In order to aviod this situation happen again, I try to figure out the why social media blow my mind out of the control.
 
