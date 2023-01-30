@@ -29,4 +29,4 @@ If you wouldn't, that's ok. As browsing social media is part of modern life alre
 
 # Reference
 
-Lawly, J. (2013). *Fogg Model of Behavior Change*. Retrieved from https://www.cleanlanguage.co.uk/articles/attachments/2013-08-17_Fogg_Model_of_Behavior_Change.pdf
+Lawly, J. (2013). *Fogg Model of Behavior Change*. Retrieved from [Fogg Model of Behavior Change](https://www.cleanlanguage.co.uk/articles/attachments/2013-08-17_Fogg_Model_of_Behavior_Change.pdf)
