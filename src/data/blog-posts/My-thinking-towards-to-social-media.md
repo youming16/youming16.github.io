@@ -5,7 +5,7 @@ description: An "reflection" more specificly
 ---
 # Before we start
 
-Well, today I've been wasting hours on browsing social medias for nothing, watching no-brain staff to make me laugh. However, I was unable to concentrate on learning at all, and can't help thinking about the funny staff I haven't watch. What come to the next? I spent 5 hours just for a 2 hours online tutorial in the morning. Obviously, my brain has been boiled with them. In the afternoon, I was sitting in front of the desk table and did nothing. In order to aviod this situation happen again, I try to figure out the why social media blow my mind out of the control.
+Well, today I've been wasting hours for browsing social medias on nothing, watching no-brain staff to keep me laugh. However, I was unable to concentrate on learning at all, and could't stop think about funny meme I watched. What come to the next? While studying this morning, I spent 5 hours just for watching a 2 hours online tutorial. Obviously, my brain has been spoiled with them. In the afternoon, I was sitting in front of the desk table and did nothing. In order to avoid information overwheaming happen again, I try to figure out the why social media blow my mind , and let it out of the control.
 
 # How do I feel when I watch them
 
