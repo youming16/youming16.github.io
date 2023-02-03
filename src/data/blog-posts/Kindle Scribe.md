@@ -1,22 +1,27 @@
 ---
-title: 周四小记
+title: 新伙伴加入 - Kindle Scribe
 publishDate: 3 Feb 2023
-description: 新的Kindle到辣！以及一点流水账
+description: 新的Kindle, 以及一点流水账
 ---
+
+<figure>
+  <img
+    src="/assets/blog/kindle-scribe.jpeg"
+    alt="kindle scribe"
+  />
+  <figcaption>
+    My new kindle
+  </figcaption>
+</figure>
+
+
 # 引言
 
-我都忘记今天是星期几了，星期四？今天发生了几件有趣的事儿
+我都忘记今天是星期几了，星期四？不管它，今天发生了几件有趣的事儿
 
 # Kindle Scribe
 
 今天下午我的Kindle Scribe到啦！还一起买了一个蓝色的皮套，想着通勤的时候把Kindle放进去可以避免刮花屏幕（前车之鉴）。
-
-<!-- <img width="200" alt="image" src="asset/kindle-scribe.webp" ?raw=true>
-<img width="300" alt="image" src="https://github.com/youming16/blog-image/blob/21d32af9a3d1d54e3483a363b1610276c5942b05/January-2023/kindle-scribe.jpeg"?raw=true>
-
-![image](https://github.com/youming16/blog-image/blob/21d32af9a3d1d54e3483a363b1610276c5942b05/January-2023/kindle-scribe.jpeg ?raw=true)
-
-![image](.asset/kindle-scribe.webp ?raw=true) -->
 
 
 拆封之后试用了一下，总体相当满意，首先说下我喜欢的部分：
@@ -35,9 +40,11 @@ description: 新的Kindle到辣！以及一点流水账
 
 今天房主Helen回来的晚，要我帮她提前把米饭蒸好，但是呢我给米加水的时候**又又又加少了**。
 
-<!-- <img width="200" alt="image" src="asset/rice-accident.webp"> -->
-
 不知道是不是因为房主用的糙米吸水更多。蒸米饭期间，我的两位室友Khuan和Huseyin下楼来，看到我水又放少了，立马加了一杯，以至于饭没有蒸的梆硬，真是救了我的小命一条。搞笑的是，房主回来看到米饭蒸的不错，喜出望外，于此同时我的两位室友都在憋笑哈哈哈哈哈哈哈！
+
+<img width="200" alt="image" src="/assets/blog/rice-accident.jpeg">
+
+---
 
 # 《福格行为模式》
 
@@ -61,4 +68,4 @@ description: 新的Kindle到辣！以及一点流水账
 
 最后放上今日随手拍的花花，在火车站旁
 
-<!-- <img width="300" alt="image" src="https://github.com/youming16/blog-image/blob/21d32af9a3d1d54e3483a363b1610276c5942b05/January-2023/follows.jpeg"> -->
+<img width="300" alt="image" src="/assets/blog/flowers.jpeg">
