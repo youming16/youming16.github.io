@@ -12,6 +12,8 @@ description: 新的Kindle到辣！以及一点流水账
 今天下午我的Kindle Scribe到啦！还一起买了一个蓝色的皮套，想着通勤的时候把Kindle放进去可以避免刮花屏幕（前车之鉴）。
 
 <img width="200" alt="image" src="asset/kindle-scribe.jpeg">
+<img width="300" alt="image" src="https://github.com/youming16/blog-image/blob/21d32af9a3d1d54e3483a363b1610276c5942b05/January-2023/kindle-scribe.jpeg">
+
 
 拆封之后试用了一下，总体相当满意，首先说下我喜欢的部分：
 
@@ -54,4 +56,5 @@ description: 新的Kindle到辣！以及一点流水账
 很开心自己又把写记录自己的习惯坚持了下来。我发现只要认真观察自己的生活，有趣的事情不少呢。
 
 最后放上今日随手拍的花花，在火车站旁
-<img width="1219" alt="image" src="asset/follows.jpeg">
+
+<img width="300" alt="image" src="https://github.com/youming16/blog-image/blob/21d32af9a3d1d54e3483a363b1610276c5942b05/January-2023/follows.jpeg">
