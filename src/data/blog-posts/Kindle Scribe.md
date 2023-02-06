@@ -4,16 +4,6 @@ publishDate: 3 Feb 2023
 description: 新的Kindle, 以及一点流水账
 ---
 
-<figure>
-  <img
-    src="/assets/blog/kindle-scribe.jpeg"
-    alt="kindle scribe"
-  />
-  <figcaption>
-    My new kindle
-  </figcaption>
-</figure>
-
 
 # 引言
 
@@ -42,8 +32,6 @@ description: 新的Kindle, 以及一点流水账
 
 不知道是不是因为房主用的糙米吸水更多。蒸米饭期间，我的两位室友Khuan和Huseyin下楼来，看到我水又放少了，立马加了一杯，以至于饭没有蒸的梆硬，真是救了我的小命一条。搞笑的是，房主回来看到米饭蒸的不错，喜出望外，于此同时我的两位室友都在憋笑哈哈哈哈哈哈哈！
 
-<img width="200" alt="image" src="/assets/blog/rice-accident.jpeg">
-
 ---
 
 # 《福格行为模式》
@@ -66,6 +54,3 @@ description: 新的Kindle, 以及一点流水账
 
 很开心自己又把写记录自己的习惯坚持了下来。我发现只要认真观察自己的生活，有趣的事情不少呢。
 
-最后放上今日随手拍的花花，在火车站旁
-
-<img width="300" alt="image" src="/assets/blog/flowers.jpeg">
