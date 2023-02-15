@@ -1,17 +1,26 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
-const title = 'Blog';
-const description = 'Latest articles.';
-const permalink = `${Astro.site.href}blog`;
+const title = 'Tag';
+const description = 'Categories';
+const permalink = `${Astro.site.href}tag`;
 
 let allPosts = await Astro.glob('../../data/blog-posts/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
+const tags = [...new Set([].concat.apply([], allPosts.map(post => post.frontmatter.tags)))]
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink} current="blog">
-  <div class="container">
-    <h1>Blog</h1>
+<BaseLayout title={title} description={description} permalink={permalink} current="tag">
+    <div class="container">
+        <h1>All Tags</h1>
+        <ul class="tag-list">
+            {tags.map((tag) => (
+                <li><a class="tag" href={`/tags/${tag}`} title={`View posts tagged under "${tag}"`}>{tag}</a></li>
+        ))}
+        </ul>
+    </div>
+    
+  <!-- <div class="container">
     {allPosts.map((post, index) => {
       const href = `/blog/${post.file.split('/').pop().split('.').shift()}`;
       return (
@@ -29,7 +38,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
         </div>
       )
     })}
-  </div>
+  </div> -->
 </BaseLayout>
 
 <style>
