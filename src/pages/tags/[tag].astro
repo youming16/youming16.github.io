@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 const { tag } = Astro.params;
+const { posts } = Astro.props;
 
 export async function getStaticPaths() {
   const allPosts = await Astro.glob('../../data/blog-posts/*.md');
@@ -24,7 +25,7 @@ const permalink = `${Astro.site.href}tag`;
 <BaseLayout title={title} description={description} permalink={permalink} current="tag">
     <div class="container">
         <h1>Tagged with #{tag}</h1>
-        <!-- {posts.map((post, index) => {
+        {posts.map((post, index) => {
             const href = `/blog/${post.file.split('/').pop().split('.').shift()}`;
             return (
                 <div>
@@ -40,7 +41,7 @@ const permalink = `${Astro.site.href}tag`;
                 </div>
                 </div>
             )
-        })} -->
+        })}
     </div>
   
 </BaseLayout>
