@@ -63,12 +63,12 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 
   .tag {
     background: #eee;
-    border-radius: 3px 0 0 3px;
+    border-radius: 5px;
     color: #999;
     display: inline-block;
     height: 26px;
     line-height: 20px;
-    padding: 2px 20px 0 23px;
+    padding: 2px 10px 0 23px;
     position: relative;
     margin: 10px 10px 10px 0;
     text-decoration: none;
@@ -87,23 +87,8 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
     top: 10px;
   }
 
-  .tag::after {
-    background: #fff;
-    border-bottom: 13px solid transparent;
-    border-left: 10px solid #eee;
-    border-top: 13px solid transparent;
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
   .tag:hover {
     background-color: crimson;
     color: white;
-  }
-
-  .tag:hover::after {
-    border-left-color: crimson; 
   }
 </style>

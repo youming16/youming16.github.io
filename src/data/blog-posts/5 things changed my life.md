@@ -3,7 +3,8 @@ title: 5 things changed my life
 publishDate: 7 Feb 2023
 description: Sentences about Depression and confidence.
 tag: 
-    - reading
+    - Reading
+    - Advices
 ---
 
 1. People who oftern use "definitly", "I will", "sure" are more confident than people who often say "may", "might", "should", "just" etc.
