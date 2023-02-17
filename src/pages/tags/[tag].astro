@@ -2,11 +2,24 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 const { tag } = Astro.params;
 const { posts } = Astro.props;
-
+    // return [
+    //     { params: { tag: "reading" } ,
+    //     props: { posts: allPosts },},
+    // ];
+// export async function getStaticPaths() {
+//     const allPosts = await Astro.glob('../../data/blog-posts/*.md');
+//     const uniqueTags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())];
+//     return uniqueTags.map((tag) => {
+//     const filteredPosts = allPosts.filter(post => post.frontmatter.tags && post.frontmatter.tags.includes(tag));
+//     return {
+//         params: { tag },
+//         props: { posts: filteredPosts },
+//     };
+//     });
+// }
 export async function getStaticPaths() {
   const allPosts = await Astro.glob('../../data/blog-posts/*.md');
-  
-  const uniqueTags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())];
+  const uniqueTags = [...new Set(allPosts.map((post) => post.frontmatter.tags).reduce((acc, val) => acc.concat(val), []))];
 
   return uniqueTags.map((tag) => {
     const filteredPosts = allPosts.filter(post => post.frontmatter.tags && post.frontmatter.tags.includes(tag));
@@ -16,6 +29,7 @@ export async function getStaticPaths() {
     };
   });
 }
+
 
 
 const title = 'Tag';
