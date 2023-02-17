@@ -8,13 +8,23 @@ export async function getStaticPaths() {
   const allPosts = await Astro.glob('../../data/blog-posts/*.md');
   const uniqueTags = [...new Set(allPosts.map((post) => post.frontmatter.tags).reduce((acc, val) => acc.concat(val), []))];
 
-  return uniqueTags.map((tag) => {
-    const filteredPosts = allPosts.filter(post => post.frontmatter.tags && post.frontmatter.tags.includes(tag));
-    return {
-      params: { tag },
-      props: { posts: filteredPosts },
-    };
-  });
+//   return uniqueTags.map((tag) => {
+//     const filteredPosts = allPosts.filter(post => post.frontmatter.tags && post.frontmatter.tags.includes(tag));
+//     return {
+//       params: { tag },
+//       props: { posts: filteredPosts },
+//     };
+//   });
+    return uniqueTags.map((tag) => {
+        const filteredPosts = allPosts.filter((post) => post.frontmatter.tags && post.frontmatter.tags.includes(tag));
+        return [
+            {
+            params: { tag },
+            props: { posts: filteredPosts },
+            },
+        ];
+    }).flat();
+
 }
 
 const title = 'Tag';
