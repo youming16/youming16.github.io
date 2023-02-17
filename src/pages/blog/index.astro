@@ -21,7 +21,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
             <h2>
               <a href={href}>{post.frontmatter.title}</a>
             </h2>
-            <p class="tag">{post.frontmatter.tag}</p>
+            <p class="tag">{post.frontmatter.tags}</p>
             <div class="post-item-footer">
               <span class="post-item-date">— {post.frontmatter.publishDate}</span>
             </div>
