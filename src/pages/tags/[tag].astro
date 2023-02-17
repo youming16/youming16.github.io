@@ -20,28 +20,28 @@ export async function getStaticPaths() {
 
 const title = 'Tag';
 const description = 'Categories';
-const permalink = `${Astro.site.href}tags`;
+const permalink = `${Astro.site.href}tag`;
 ---
 <BaseLayout title={title} description={description} permalink={permalink} current="tag">
     <div class="container">
         <h1>Tagged with #{tag}</h1>
-        {posts.map((post, index) => {
-      const href = `/blog/${post.file.split('/').pop().split('.').shift()}`;
-      return (
-        <div>
-          { index !== 0 && <hr /> }
-          <div class="post-item">
-            <h2>
-              <a href={href}>{post.frontmatter.title}</a>
-            </h2>
-            <p class="tag">{post.frontmatter.tags}</p>
-            <div class="post-item-footer">
-              <span class="post-item-date">— {post.frontmatter.publishDate}</span>
-            </div>
-          </div>
-        </div>
-      )
-    })}
+        <!-- {posts.map((post, index) => {
+            const href = `/blog/${post.file.split('/').pop().split('.').shift()}`;
+            return (
+                <div>
+                { index !== 0 && <hr /> }
+                <div class="post-item">
+                    <h2>
+                    <a href={href}>{post.frontmatter.title}</a>
+                    </h2>
+                    <p class="tag">{post.frontmatter.tags}</p>
+                    <div class="post-item-footer">
+                    <span class="post-item-date">— {post.frontmatter.publishDate}</span>
+                    </div>
+                </div>
+                </div>
+            )
+        })} -->
     </div>
   
 </BaseLayout>
