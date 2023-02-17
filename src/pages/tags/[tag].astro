@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import BlogPost from '../../components/BlogPost.astro'
 const { tag } = Astro.params;
 const { posts } = Astro.props;
 
@@ -26,9 +25,84 @@ const permalink = `${Astro.site.href}tags`;
 <BaseLayout title={title} description={description} permalink={permalink} current="tag">
     <div class="container">
         <h1>Tagged with #{tag}</h1>
-        <ul>
-            {posts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title}/>)}
-        </ul>
+        {posts.map((post, index) => {
+      const href = `/blog/${post.file.split('/').pop().split('.').shift()}`;
+      return (
+        <div>
+          { index !== 0 && <hr /> }
+          <div class="post-item">
+            <h2>
+              <a href={href}>{post.frontmatter.title}</a>
+            </h2>
+            <p class="tag">{post.frontmatter.tags}</p>
+            <div class="post-item-footer">
+              <span class="post-item-date">— {post.frontmatter.publishDate}</span>
+            </div>
+          </div>
+        </div>
+      )
+    })}
     </div>
   
 </BaseLayout>
+
+<style>
+  h2,
+  .post-item-footer {
+    font-family: var(--font-family-sans);
+    font-weight: 700;
+  }
+
+  .post-item-date {
+    color: var(--text-secondary);
+    text-align: left;
+    text-transform: uppercase;
+    margin-right: 16px;
+  }
+
+  hr {
+    margin: 60px auto;
+  }
+
+ .tags {
+    list-style: none;
+    margin: 0;
+    overflow: hidden; 
+    padding: 0;
+  }
+
+  .tags li {
+    float: left; 
+  }
+
+  .tag {
+    background: #eee;
+    border-radius: 5px;
+    color: #999;
+    display: inline-block;
+    height: 26px;
+    line-height: 20px;
+    padding: 2px 10px 0 23px;
+    position: relative;
+    margin: 10px 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+  }
+
+  .tag::before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+  }
+
+  .tag:hover {
+    background-color: crimson;
+    color: white;
+  }
+</style>
