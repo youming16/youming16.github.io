@@ -1,4 +1,4 @@
-# Preview
+# 🪐 Feature
 ## Light mode
 <img width="1528" alt="image" src="https://user-images.githubusercontent.com/83531295/216471678-43bdca90-8967-4c97-8b5a-b538fca801c2.png">
 <img width="1520" alt="image" src="https://user-images.githubusercontent.com/83531295/216471715-6269a2e8-e50e-4eea-9b3f-60b987bf862f.png">
