@@ -2,6 +2,7 @@
 title: The Beginning
 publishDate: 29 Jan 2023
 description: A letter to myself
+tags: ["event"]
 ---
 
 # Sailing to the future

@@ -1,5 +1,5 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
 const title = "Youming's blog";
 const description = "blog";
@@ -7,90 +7,96 @@ const permalink = Astro.site.href;
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink}>
-  <div class="home-container">
-    <div class="home-copy">
-      <h1>Welcome to Little Price's 16th planet</h1>
-      <p>A place for <a href="/blog" rel="noopener">journaling</a> myself.</p>
-    </div>
+    <div class="home-container">
+        <div class="home-copy">
+            <h1>Welcome to my Planet</h1>
+            <p>
+                A place for <a href="/blog" rel="noopener">journaling</a> myself.
+            </p>
+        </div>
 
-    <div class="little-price">
-      <picture>
-        <img class="hero-image" alt="Illustration of person reading a book" src="/assets/Little Price.jpg" width="300" height="300">
-      </picture>
-      <p class="caption">
-        The little price is staring at his rose..
-      </p>
+        <div class="little-price">
+            <picture>
+                <img
+                    class="hero-image"
+                    alt="Illustration of person reading a book"
+                    src="/assets/Little Price.jpg"
+                    width="300"
+                    height="300"
+                />
+            </picture>
+            <p class="caption">The little price is staring at his rose..</p>
+        </div>
     </div>
-  </div>
 </BaseLayout>
 
 <style>
-  .home-container {
-    align-items: center;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    margin: 2em 0;
-    min-height: 400px;
-  }
-
-  .home-copy {
-    flex: 1;
-    padding: 0 0em;
-    margin: 1em;
-  }
-
-  .home-copy h1 {
-    font-weight: 700;
-    margin-bottom: 0.5em;
-    line-height: 1.3;
-  }
-
-  .home-copy p {
-    font-size: 1.4em;
-  }
-
-  .hero-image-container {
-    margin: 0 1em;
-    text-align: center;
-  }
-
-  .hero-image-container picture {
-    display: block;
-    min-height: 250px;
-  }
-
-  .caption {
-    font-size: .8em;
-    font-style: italic;
-    text-align: left;
-  }
-
-  .little-price {
-    width: 100%;
-    max-width: 300px;
-    margin: 1em 1em 1em 1em;
-  }
-
-  @media (max-width: 1200px) {
-    p {
-      font-size: 1.2em;
-    }
-
-    .hero-image {
-      max-width: 400px;
-    }
-  }
-
-  @media (max-width: 800px) {
     .home-container {
-      flex-direction: column;
+        align-items: center;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        margin: 2em 0;
+        min-height: 400px;
     }
 
     .home-copy {
-      flex: 0;
-      padding-bottom: 2em;
-      text-align: center;
+        flex: 1;
+        padding: 0 0em;
+        margin: 1em;
     }
-  }
+
+    .home-copy h1 {
+        font-weight: 700;
+        margin-bottom: 0.5em;
+        line-height: 1.3;
+    }
+
+    .home-copy p {
+        font-size: 1.4em;
+    }
+
+    .hero-image-container {
+        margin: 0 1em;
+        text-align: center;
+    }
+
+    .hero-image-container picture {
+        display: block;
+        min-height: 250px;
+    }
+
+    .caption {
+        font-size: 0.8em;
+        font-style: italic;
+        text-align: left;
+    }
+
+    .little-price {
+        width: 100%;
+        max-width: 300px;
+        margin: 1em 1em 1em 1em;
+    }
+
+    @media (max-width: 1200px) {
+        p {
+            font-size: 1.2em;
+        }
+
+        .hero-image {
+            max-width: 400px;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .home-container {
+            flex-direction: column;
+        }
+
+        .home-copy {
+            flex: 0;
+            padding-bottom: 2em;
+            text-align: center;
+        }
+    }
 </style>
