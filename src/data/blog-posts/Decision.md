@@ -1,5 +1,5 @@
 ---
-title: A Decision about blogging
+title: Decision about blogging
 publishDate: 6 Feb 2023
 description: What I blog for?
 ---

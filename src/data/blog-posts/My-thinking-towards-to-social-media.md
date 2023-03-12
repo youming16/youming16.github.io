@@ -1,8 +1,9 @@
 ---
-title: My thinking towards to social media
+title: How Social media made my life harder
 publishDate: 30 Jan 2023
 description: Should I quit social media?
 ---
+
 # Before we start
 
 Well, today I've been wasting hours for browsing social medias on nothing, watching no-brain staff to keep me laugh. However, I was unable to concentrate on learning at all, and could't stop think about funny meme I watched. What come to the next? While studying this morning, I spent 5 hours just for watching a 2 hours online tutorial. Obviously, my brain has been spoiled with them. In the afternoon, I was sitting in front of the desk table and did nothing. In order to avoid information overwheaming happen again, I try to figure out the why social media blow my mind , and let it out of the control.
@@ -11,7 +12,7 @@ Well, today I've been wasting hours for browsing social medias on nothing, watch
 
 The frist quesion came to me: Why do I watch social media? Probobaly because I feel boring, I wanna get something makes me happy. But here we have another question come after: do I feel happy when I do so?
 
-My answer is I don't know, because I was not able to observe my emotion as social media has took all of the attention. For example, when I was watching an Youtuber channel called "Leya蕾雅", I always lose all my attention to myself. Here is coming with a question: What makes her video so charming to me? And why I can't feel what I feel when I watching her videos? To find out the reason, let me introduce her channel first. Her channel audience is those game lovers. In her videos, she spend hours to introduce game background and classic stories, for attracting new players come in. For example, her series of "The withcher", she made 4 videos (total 5 hours approx) to state how fasinating the world in "Witcher" is. Every time I finished one part, I can't stop myself to find out more come next to the main character, and keep exciting about ending.
+My answer is I don't know, because I was not able to observe my emotion as social media has took all of the attention. For example, when I was watching an Youtuber channel called "Leya 蕾雅", I always lose all my attention to myself. Here is coming with a question: What makes her video so charming to me? And why I can't feel what I feel when I watching her videos? To find out the reason, let me introduce her channel first. Her channel audience is those game lovers. In her videos, she spend hours to introduce game background and classic stories, for attracting new players come in. For example, her series of "The withcher", she made 4 videos (total 5 hours approx) to state how fasinating the world in "Witcher" is. Every time I finished one part, I can't stop myself to find out more come next to the main character, and keep exciting about ending.
 
 # The difference between social media and book
 
@@ -29,4 +30,4 @@ If you wouldn't, that's ok. As browsing social media is part of modern life alre
 
 # Reference
 
-Lawly, J. (2013). *Fogg Model of Behavior Change*. Retrieved from [Fogg Model of Behavior Change](https://www.cleanlanguage.co.uk/articles/attachments/2013-08-17_Fogg_Model_of_Behavior_Change.pdf)
+Lawly, J. (2013). _Fogg Model of Behavior Change_. Retrieved from [Fogg Model of Behavior Change](https://www.cleanlanguage.co.uk/articles/attachments/2013-08-17_Fogg_Model_of_Behavior_Change.pdf)
