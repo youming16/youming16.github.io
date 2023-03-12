@@ -3,6 +3,19 @@ import ThemeToggleButton from "./ThemeToggleButton.svelte";
 const { current = "" } = Astro.props;
 ---
 
+<nav>
+    <a class={current === "" ? "selected" : ""} href="/">home</a>
+    <a class={current === "about" ? "selected" : ""} href="/about">about</a>
+    <a class={current === "blog" ? "selected" : ""} href="/blog">blog</a>
+    <a class={current === "resume" ? "selected" : ""} href="/resume">resume</a>
+    <a class={current === "project" ? "selected" : ""} href="/project"
+        >project</a
+    >
+    <div class="theme-toggle-container">
+        <ThemeToggleButton client:load />
+    </div>
+</nav>
+
 <style>
     nav {
         align-items: center;
@@ -17,11 +30,11 @@ const { current = "" } = Astro.props;
     a {
         color: inherit;
         text-decoration: none;
-        padding: 10px 5px;
+        padding: 8px 5px;
         display: block;
         position: relative;
         margin-left: 20px;
-        min-width: 70px;
+        min-width: 50px;
         text-align: center;
     }
 
@@ -53,17 +66,17 @@ const { current = "" } = Astro.props;
     .theme-toggle-container {
         width: 75px;
     }
-</style>
 
-<nav>
-    <a class={current === "" ? "selected" : ""} href="/">home</a>
-    <a class={current === "about" ? "selected" : ""} href="/about">about</a>
-    <a class={current === "blog" ? "selected" : ""} href="/blog">blog</a>
-    <a class={current === "resume" ? "selected" : ""} href="/resume">resume</a>
-    <a class={current === "project" ? "selected" : ""} href="/project"
-        >project</a
-    >
-    <div class="theme-toggle-container">
-        <ThemeToggleButton client:load />
-    </div>
-</nav>
+    @media screen and (max-width: 600px) {
+        a {
+            color: inherit;
+            text-decoration: none;
+            padding: 8px 5px;
+            display: block;
+            position: relative;
+            margin-left: 10px;
+            min-width: 30px;
+            text-align: center;
+        }
+    }
+</style>
