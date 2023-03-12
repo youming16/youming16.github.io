@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const title = "Eric's projects";
+const description = "Project";
+const permalink = Astro.site.href;
+---
+
+<BaseLayout
+    title={title}
+    description={description}
+    permalink={permalink}
+    current="project"
+>
+    <div class="home-container">Working on the project right now :)</div>
+</BaseLayout>

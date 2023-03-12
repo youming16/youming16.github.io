@@ -1,65 +1,43 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-const title = 'About';
-const description = 'About your blog.';
+const title = "About";
+const description = "About your blog.";
 const permalink = `${Astro.site.href}about`;
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink} current="about">
-  <div class="container">
-    <h1>About me</h1>
-    <!-- <figure class="about-image">
-      <img src="/assets/Little Price.jpg" alt="The Little price" width="260">
-      <figcaption>
-        Illustration by
-        <a href="https://icons8.com/illustrations/author/5c07e68d82bcbc0092519bb6" target="_blank" rel="noopener">Icons 8</a>
-        from
-        <a href="https://icons8.com/illustrations" target="_blank" rel="noopener">Ouch!</a>
-      </figcaption>
-    </figure> -->
-
-    <p>Hi! I am Youming, a <b><i>web developer</i></b> enjoy crafting <i>delightful websites.</i></p>
-    <p></p>
-    <p>Learning <i>Computer Science</i> in <b>USYD</b>.</p>
-    <p></p>
-    <p>Also, I am a <i>coffee maker</i>.</p>
-  </div>
-  <hr>
-  <div class="contact">
-    <a href="https://twitter.com/Youming_Tan" target="_blank" rel="noopener">Twitter</a>
-    <a href="https://github.com/youming16" target="_blank" rel="noopener">GitHub</a>
-  </div>
-
+<BaseLayout
+    title={title}
+    description={description}
+    permalink={permalink}
+    current="about"
+>
+    <div class="container">
+        <h1>About me</h1>
+    </div>
+    <hr />
 </BaseLayout>
 
 <style>
-  a {
-    padding: 0.5rem;
-  }
-  
-  .contact {
-    text-align: center;
-    padding-left: 0.5rem;
-  }
-  
-  .about-image {
-    float: right;
-    margin: 0em -7em 2em 2em;
-    max-width: 300px;
-  }
-
-  .about-image img {
-    border-radius: 8px;
-    margin-bottom: 1.5em;
-  }
-
-  @media (max-width: 1020px) {
-    .about-image {
-      float: none;
-      margin: 0 auto 2em;
+    a {
+        padding: 0.5rem;
     }
-  }
 
-  
+    .about-image {
+        float: right;
+        margin: 0em -7em 2em 2em;
+        max-width: 300px;
+    }
+
+    .about-image img {
+        border-radius: 8px;
+        margin-bottom: 1.5em;
+    }
+
+    @media (max-width: 1020px) {
+        .about-image {
+            float: none;
+            margin: 0 auto 2em;
+        }
+    }
 </style>
